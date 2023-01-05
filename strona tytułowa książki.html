@@ -8,16 +8,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>strona tytułowa książki</title>
     <style>
-        div {
+        div.outside {
             width: 500px;
             height: 900px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div.inside {
             text-align: center;
         }
+
+        h1 {
+            margin-bottom: 100px;
+        }
     </style>
+</head>
 
 <body>
-    <div>
-        <h1>Tytuł książki</h1>
-        <h2>autor</h2>
+    <div class="outside">
+        <div class="inside">
+            <h1>Tytuł książki</h1>
+            <h2>imię i nazwisko</h2>
+        </div>
     </div>
 </body>
